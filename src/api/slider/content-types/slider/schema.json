@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sliders",
+  "info": {
+    "singularName": "slider",
+    "pluralName": "sliders",
+    "displayName": "Slider",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "Subtitulo": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {}
+    },
+    "MensagemFinalDoContador": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "MensagemDeBaixo": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "DataFinal": {
+      "type": "string",
+      "required": true,
+      "regex": "^(?:(?:31(\\/|-|\\.)(?:0?[13578]|1[02]))\\1|(?:(?:29|30)(\\/|-|\\.)(?:0?[13-9]|1[0-2])\\2))(?:(?:1[6-9]|[2-9]\\d)?\\d{2})$|^(?:29(\\/|-|\\.)0?2\\3(?:(?:(?:1[6-9]|[2-9]\\d)?(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00))))$|^(?:0?[1-9]|1\\d|2[0-8])(\\/|-|\\.)(?:(?:0?[1-9])|(?:1[0-2]))\\4(?:(?:1[6-9]|[2-9]\\d)?\\d{2})$",
+      "pluginOptions": {}
+    }
+  }
+}

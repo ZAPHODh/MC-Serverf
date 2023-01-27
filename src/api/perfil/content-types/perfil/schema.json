@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "perfils",
+  "info": {
+    "singularName": "perfil",
+    "pluralName": "perfils",
+    "displayName": "Perfil"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FotoDePerfil": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "TamanhoDaImagem": {
+      "type": "string"
+    }
+  }
+}
