@@ -1,4 +1,7 @@
 module.exports = ({ env }) => ({
+  "netlify-deployments": {
+    enabled: true,
+  },
   upload: {
     config: {
       provider: 'cloudinary',
